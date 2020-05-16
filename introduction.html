@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+   <head>
+<title> Introduction HTML </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet"href="font-awesome.css">
+<style type="text/css">
+body{
+    background-color: #154360;
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+list-style: none;
+margin: 0;
+
+}
+.menu ul li{
+    padding: 15px;
+   
+    position: relative;
+    width: 200px;
+    background-color: #34495E;
+    border-top: 1px solid #BDC3C7;
+}
+.menu ul ul{
+    transition: all 0.3s;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    left: 80%;
+    top: -2%;
+}
+.menu ul li:hover > ul {
+   
+    opacity: 1;
+visibility: visible;
+
+}
+.menu ul li a{
+color: #fff
+
+
+}
+a:hover {
+color:red;
+text-decoration:none;
+background-color:#2874A6;
+}
+#dream1{
+    position: absolute;
+width: 500px;
+left: 650px;
+top: 29px;
+color: white;
+text-align: center;
+background-color: #34495E;
+padding: 15px;
+font-size: 24px;
+border-radius: 15px;
+ }
+nav{
+    border-bottom:1px solid rgb(250, 246, 246);
+}
+#resume{
+    position: absolute;
+    width: 850px;
+    left: 550px;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #34495E;
+    border-bottom:1px solid rgb(250, 246, 246);
+    padding: 10px;
+    margin: 2px;
+    top: 90px;
+    height: 275px;
+}
+  #exemple{
+    position: absolute;
+    width: 850px;
+    left: 550px;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #34495E;
+    border-bottom:1px solid rgb(250, 246, 246);
+    padding: 15px;
+    margin: 10px;
+    top: 390px;
+    height: 300px;
+  
+  }
+</style>
+</head>;
+
+    <body>
+<div class="menu">
+    <ul id="menu1">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="">HTML</a>
+    <ul>
+        <li><a href="introductionhtml.html">Introduction</a></li>
+        <li><a href="editeur.html">editeur</a></li>
+        <li><a href="base.html">Base HTML</a></li> 
+    </ul>
+    </li>
+    <li><a href="">CSS</a></li>
+    <li><a href="">Dreamweaver</a></li>
+    <li><a href="">Camtasia</a></li>
+    <li><a href="">Astuces</a></li>
+    <li><a href="">Liens Utile</a>
+      <ul>
+        <li><a href="https://www.w3schools.com/">Cours de Programmation</a></li>
+        <li><a href="https://www.chiny.me/">Développeur Web</a></li>
+        <li><a href="https://fr.w3docs.com/">Apprendre HTML et CSS</a></li>
+        <li><a href="https://waytolearnx.com/">Tuto Langage</a></li>
+        <li><a href="http://css.mammouthland.net/">CSS 3 Débutant</a></li>
+        <li><a href="https://htmlcolorcodes.com/fr/">Codes de Couleurs</a></li> 
+    </ul>
+    </li>
+    <li><a href="">Contact </a></li>
+</ul>
+</div>
+<nav id="dream1">Cours <span style="color:rgb(217, 255, 0);font-weight:bold">HTML</span> et <span style="color:red;font-weight:bold">CSS</span> 
+    pour débutant. </nav>
+
+    <nav id="resume">
+        <h2> Exemple HTML</h2>
+        <p>&lt;!DOCTYPE html&gt;<br />
+          &lt;html&gt;<br />
+          &lt;head&gt;<br />
+          &lt;title&gt;Titre de la Page&lt;/title&gt;<br />
+          &lt;/head&gt;<br />
+        &lt;body&gt;</p>
+        <p>&lt;h1&gt;Mon Premier Titre&lt;/h1&gt;<br />
+        &lt;p&gt;Mon Premier Paragraphe&lt;/p&gt;</p>
+        <p>&lt;/body&gt;<br />
+          &lt;/html&gt;<br />
+        </p>
+        <p><br />
+        </p>
+      </nav>
+      <nav id="exemple">
+        <h3>Exemple expliqué</h3>
+        <ul>
+          <li>La &lt;!DOCTYPE html&gt;déclaration définit ce document comme étant HTML5</li>
+          <li>L' &lt;html&gt;élément est l'élément racine d'une page HTML</li>
+          <li>L' &lt;head&gt;élément contient des méta-informations sur le document</li>
+          <li>L' &lt;title&gt;élément spécifie un titre pour le document</li>
+          <li>L' &lt;body&gt;élément contient le contenu de la page visible</li>
+          <li>L' &lt;h1&gt;élément définit un grand titre</li>
+          <li>L' &lt;p&gt;élément définit un paragraphe</li>
+          <p> Résultat</p>
+          <h1>Mon premier Titre</h1>
+          <p>Mon Premier Paragraphe</p>
+        </ul>
+      </nav>
+</p>
+    
+</body>
+</html>
